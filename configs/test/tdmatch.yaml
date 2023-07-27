@@ -25,7 +25,7 @@ data:
   val_info: configs/tdmatch/val_info.pkl
   augment_noise: 0.
   benchmark: 3DLoMatch
-  rotated: True
+  rotated: False
 
 coarse_matching:
   matching_radius: 0.05
