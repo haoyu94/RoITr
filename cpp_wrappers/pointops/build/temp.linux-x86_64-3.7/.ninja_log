@@ -1,0 +1,14 @@
+# ninja log v5
+0	15656	1660046567820683636	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/aggregation/aggregation_cuda.o	54d77f95606bb778
+2	15811	1660046567976689218	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/sampling/sampling_cuda.o	6960a481df33bfb0
+1	16177	1660046568344702388	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/interpolation/interpolation_cuda.o	7f9f42d1a69c8854
+1	16285	1660046568436705680	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/knnquery/knnquery_cuda.o	84b0870ee64232d
+0	16713	1660046568880721570	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/grouping/grouping_cuda.o	6fdfa061fdc2cf47
+15812	28545	1660046580713145027	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/subtraction/subtraction_cuda.o	8d8f6dcf2344305a
+1	33235	1660046585397312677	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/knnquery/knnquery_cuda_kernel.o	e2562a441bfe1172
+0	33577	1660046585741324990	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/aggregation/aggregation_cuda_kernel.o	81f5fc4df65a65a6
+1	33739	1660046585905330860	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/interpolation/interpolation_cuda_kernel.o	1d7f981eeae81465
+1	33917	1660046586085337303	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/grouping/grouping_cuda_kernel.o	b84a38e647b98fb7
+15657	41540	1660046593705610051	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/sampling/sampling_cuda_kernel.o	2ec85f01284e0bd
+16177	41713	1660046593877616210	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/subtraction/subtraction_cuda_kernel.o	b2b091be6e908aed
+2	42029	1660046594181627090	/home/haoyu/Desktop/github/point-transformer/lib/pointops/build/temp.linux-x86_64-3.7/src/pointops_api.o	e1912484ac636748

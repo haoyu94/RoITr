@@ -1,0 +1,27 @@
+# ninja log v5
+3	15253	1660053804436716455	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/subtraction/subtraction_cuda.o	d6cab9c9fd73d7f7
+0	15362	1660053804544720351	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/knnquery/knnquery_cuda.o	9fce4bc0bfaf9e35
+0	15466	1660053804648724099	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/sampling/sampling_cuda.o	8f4dfe09a2dddbd9
+1	16137	1660053805320748326	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/grouping/grouping_cuda.o	7352255f6219e5c8
+2	17314	1660053806496790723	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/interpolation/interpolation_cuda.o	d38a0d5819dd5a7a
+15362	28324	1660053817509187731	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/aggregation/aggregation_cuda.o	74629a08e516e7d7
+0	33419	1660053822601371306	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/knnquery/knnquery_cuda_kernel.o	9a7e485f5abf533a
+2	34202	1660053823385399572	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/interpolation/interpolation_cuda_kernel.o	966704bfab1f4a65
+1	34782	1660053823965420481	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/grouping/grouping_cuda_kernel.o	e41743f9f202b073
+1	34829	1660053824013422211	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/sampling/sampling_cuda_kernel.o	a39c0d5569f67563
+0	42255	1660053831425689422	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/pointops_api.o	25fcda2bfcb9918
+15255	42613	1660053831793702690	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/subtraction/subtraction_cuda_kernel.o	959cd7c7531118d7
+15466	43061	1660053832241718841	/home/haoyu/Desktop/github/RIGAv2/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/aggregation/aggregation_cuda_kernel.o	d6dd7b6389d1ce19
+1	5568	1690487521912922514	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/subtraction/subtraction_cuda.o	ce0fca781b7c4fc8
+1	5873	1690487522216926061	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/interpolation/interpolation_cuda.o	a737cf33f1de4a24
+0	5874	1690487522220926106	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/grouping/grouping_cuda.o	72d93369cfd4eaed
+0	5945	1690487522292926946	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/knnquery/knnquery_cuda.o	8efae5e1085b408c
+1	6172	1690487522516929559	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/aggregation/aggregation_cuda.o	d26f0782f7426b9c
+0	6303	1690487522648931097	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/sampling/sampling_cuda.o	ba79e3e8152feffa
+0	11849	1690487528192995762	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/grouping/grouping_cuda_kernel.o	af04bd9ad22f3cfa
+0	11971	1690487528316997208	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/sampling/sampling_cuda_kernel.o	8b0695d81757efd6
+0	12359	1690487528705001734	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/knnquery/knnquery_cuda_kernel.o	c15b6a3be2af5ba
+1	12428	1690487528773002527	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/aggregation/aggregation_cuda_kernel.o	9bde29fc6dd9270f
+1	12543	1690487528889003881	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/subtraction/subtraction_cuda_kernel.o	2e671bb7187690ae
+1	12549	1690487528893003926	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/interpolation/interpolation_cuda_kernel.o	97aefc28e2b5d7d7
+0	15929	1690487532269043308	/home/haoyu/Desktop/code/RoITr/cpp_wrappers/pointops/build/temp.linux-x86_64-3.8/src/pointops_api.o	8ddfa61f32958618

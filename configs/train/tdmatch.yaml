@@ -1,0 +1,76 @@
+misc:
+  exp_dir: tdmatch_ripoint_transformer
+  gpu_mode: True
+  verbose: True
+  verbose_freq: 10
+  mode: train
+
+model:
+  #pretrain: 'model_cross_only.pth'
+  pretrain: ''
+  #transformer_architecture: ['cross', 'cross', 'cross', 'cross', 'cross', 'cross']
+  transformer_architecture: ['self', 'cross', 'self', 'cross', 'self', 'cross']
+  with_cross_pos_embed: True
+  #transformer_architecture: []
+optim:
+  optimizer: ADAM
+  lr: 0.0001
+  weight_decay: 0.000001
+  momentum: 0.98
+  scheduler: ExpLR
+  scheduler_gamma: 0.95
+  iter_size: 1
+
+data:
+  dataset: tdmatch
+  root: data/indoor
+  train_info: configs/tdmatch/train_info.pkl
+  val_info: configs/tdmatch/val_info.pkl
+  augment_noise: 0.005
+  benchmark: 3DMatch
+  rotated: False
+
+coarse_matching:
+  matching_radius: 0.05
+  num_gt_coarse_corr: 128
+  num_est_coarse_corr: 256
+  coarse_overlap_threshold: 0.1
+
+fine_matching:
+  point_per_patch: 64
+  fine_matching_topk: 3
+  fine_matching_mutual: True
+  fine_matching_confidence_threshold: 0.05
+  fine_matching_use_dustbin: False
+  fine_matching_use_global_score: False
+  fine_matching_correspondence_threshold: 3
+
+coarse_loss:
+  coarse_loss_positive_margin: 0.1
+  coarse_loss_negative_margin: 1.4
+  coarse_loss_positive_optimal: 0.1
+  coarse_loss_negative_optimal: 1.4
+  coarse_loss_log_scale: 24
+  coarse_loss_positive_overlap: 0.1
+  coarse_loss_weight: 1.0
+
+fine_loss:
+  fine_loss_positive_radius: 0.05
+  fine_loss_weight: 1.0
+
+occlusion_loss:
+  occ_loss_weight: 0.0
+  #occ_thres: 0.0
+
+eval:
+  eval_acceptance_overlap: 0.0
+  eval_acceptance_radius: 0.1
+
+train:
+  max_epoch: 150
+  batch_size: 1
+  training_max_iter: 3500
+  val_max_iter: 500
+  scheduler_interval: 1
+  snapshot_interval: 1
+  num_workers: 8

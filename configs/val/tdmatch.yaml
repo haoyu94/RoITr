@@ -1,0 +1,60 @@
+misc:
+  exp_dir: tdmatch_pointnet_ppf_val
+  gpu_mode: True
+  verbose: True
+  verbose_freq: 50
+  mode: val
+
+model:
+  pretrain: './weights/model_best_matching_recall.pth'
+  input_type: ppf
+  with_transformer: True
+  proj_dim: 64
+  local_out_dim: 256
+  transformer_feats_dim: 256
+  transformer_num_head: 4
+  transformer_sigma_d: 0.2
+  transformer_sigma_a: 15
+  transformer_angle_k: 3
+  transformer_architecture: ['self', 'cross', 'self', 'cross', 'self', 'cross']
+  descriptor_dim: 32
+  max_neighbors: 16
+
+
+optim:
+  optimizer: ADAM
+  lr: 0.0001
+  weight_decay: 0.000001
+  momentum: 0.98
+  scheduler: ExpLR
+  scheduler_gamma: 0.95
+  iter_size: 1
+
+data:
+  dataset: tdmatch
+  root: data/indoor
+  augment_noise: 0.005
+  train_info: configs/tdmatch/train_info.pkl
+  val_info: configs/tdmatch/val_info.pkl
+  benchmark: 3DMatch
+  patch_per_frame: 512
+  point_per_patch: 128
+  patch_vicinity: 0.3
+  pos_margin: 0.1
+  safe_radius: 0.2
+  overlap_radius: 0.1
+  self_training: False
+  resample: 0.95
+  decentralization: False
+
+train:
+  max_epoch: 150
+  batch_size: 1
+  training_max_iter: 3500
+  val_max_iter: 500
+  scheduler_interval: 1
+  snapshot_interval: 1
+  num_workers: 8
+  ratio_drop: -1
+  loss_type: Circle
+
